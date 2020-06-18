@@ -1,2 +1,2 @@
-# technical_fe_test
-Technical test
+# Front-End Developer Test 
+HTML, CSS, JS + press blend
