@@ -3,4 +3,4 @@ HTML, CSS, JS + press blend
 
 - no keyboard or IE testing
 
-[Demo](https://cdpn.io/AlcinaW/debug/KKVaxrx/GnMnbOjvOVgM)  
+[Demo](https://codepen.io/AlcinaW/full/KKVaxrx)  
