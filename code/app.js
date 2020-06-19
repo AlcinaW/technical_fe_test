@@ -47,20 +47,18 @@ menuClose.addEventListener("click", function (event) {
 });
 
 
-// document.addEventListener('click', function (event) {
+document.addEventListener('click', function (event) {
 
-//     if (!event.target.matches('.copy__change')) return;
+    if (!event.target.matches('.carousel-change')) return;
 
-//     console.log(event.target);
+    console.log(event.target);
 
-//     let englist = document.getElementsByClassName("copy");
-//     for (let item of englist) {
-//         item.classList.toggle("copy__change-swap");
-//     }
+    let carousellist = document.getElementsByClassName("carousel-change-swap");
 
-//     let jalist = document.getElementsByClassName("copy-ja");
-//     for (let item of jalist) {
-//         item.classList.toggle("copy__change-show");
-//     }
-
-// }, false);
+    for (let item of carousellist) {
+        if (item.classList.contains("carousel-change-swap")) {
+            item.classList.remove("carousel-change-swap");
+        }
+        event.target.classList.toggle("carousel-change-swap");
+    }
+}, false);
