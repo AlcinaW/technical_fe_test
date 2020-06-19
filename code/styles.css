@@ -328,6 +328,64 @@ header {
   min-width: 25%;
 }
 
+.carousel-test .wrapper {
+  height: 650px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel-test .button-wrapper {
+  width: 100%;
+  height: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.carousel-test .button-wrapper button {
+  border: 0;
+  background: none;
+  font-family: "Karma", serif;
+  cursor: pointer;
+}
+
+.carousel-test .button-wrapper button:hover, .carousel-test .button-wrapper button:focus {
+  text-decoration: underline;
+}
+
+.carousel-test .button-wrapper .active {
+  background: black;
+}
+
+.carousel-test .carousel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.carousel-test .card {
+  background: black;
+  min-width: calc((100%/4) - 1rem);
+  height: 600px;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
 /* ABOUT */
 .about {
   text-align: center;
